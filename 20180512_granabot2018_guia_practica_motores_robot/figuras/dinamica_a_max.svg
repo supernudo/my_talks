@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="710.12036"
+   height="156.37401"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="dinamica_a_max.svg"
+   inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max.png"
+   inkscape:export-xdpi="198.19885"
+   inkscape:export-ydpi="198.19885">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM"
+       style="overflow:visible">
+      <path
+         id="path3922"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3928"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path3931"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3813"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send"
+       style="overflow:visible">
+      <path
+         id="path3819"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3807"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3795"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3789"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3795-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3795-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-2"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-27"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-3"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-6"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-61"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-8"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3928-3"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-5"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7080"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7082"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7084"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7086"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7088"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7090"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7092"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7094"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-0"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7436"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7438"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7440"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7442"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7444"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7446"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7448"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7450"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-94"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3931-9"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7436-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7438-9"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7440-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7442-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7444-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7446-1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7448-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7450-5"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-3"
+       style="overflow:visible">
+      <path
+         id="path3928-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-73"
+       style="overflow:visible">
+      <path
+         id="path3931-39"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-4"
+       style="overflow:visible">
+      <path
+         id="path3928-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3"
+       style="overflow:visible">
+      <path
+         id="path3931-29"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3922-3"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-9"
+       style="overflow:visible">
+      <path
+         id="path3931-29-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-5"
+       style="overflow:visible">
+      <path
+         id="path3928-5"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-739"
+       style="overflow:visible">
+      <path
+         id="path3931-07"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11714"
+       style="overflow:visible">
+      <path
+         id="path11716"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11718"
+       style="overflow:visible">
+      <path
+         id="path11720"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11722"
+       style="overflow:visible">
+      <path
+         id="path11724"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11726"
+       style="overflow:visible">
+      <path
+         id="path11728"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11730"
+       style="overflow:visible">
+      <path
+         id="path11732"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-2"
+       style="overflow:visible">
+      <path
+         id="path3922-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-2"
+       style="overflow:visible">
+      <path
+         id="path3931-29-9"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11738"
+       style="overflow:visible">
+      <path
+         id="path11740"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker11742"
+       style="overflow:visible">
+      <path
+         id="path11744"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-43"
+       style="overflow:visible">
+      <path
+         id="path3928-73"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-4"
+       style="overflow:visible">
+      <path
+         id="path3931-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12019"
+       style="overflow:visible">
+      <path
+         id="path12021"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12023"
+       style="overflow:visible">
+      <path
+         id="path12025"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12027"
+       style="overflow:visible">
+      <path
+         id="path12029"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12031"
+       style="overflow:visible">
+      <path
+         id="path12033"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12035"
+       style="overflow:visible">
+      <path
+         id="path12037"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-21"
+       style="overflow:visible">
+      <path
+         id="path3922-79"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-5"
+       style="overflow:visible">
+      <path
+         id="path3931-29-6"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12043"
+       style="overflow:visible">
+      <path
+         id="path12045"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker12047"
+       style="overflow:visible">
+      <path
+         id="path12049"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-8"
+       style="overflow:visible">
+      <path
+         id="path3922-74"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-1"
+       style="overflow:visible">
+      <path
+         id="path3931-29-63"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-5"
+       style="overflow:visible">
+      <path
+         id="path3931-50"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-36"
+       style="overflow:visible">
+      <path
+         id="path3928-75"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-35"
+       style="overflow:visible">
+      <path
+         id="path3931-62"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3214"
+       style="overflow:visible">
+      <path
+         id="path3216"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3218"
+       style="overflow:visible">
+      <path
+         id="path3220"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3222"
+       style="overflow:visible">
+      <path
+         id="path3224"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3226"
+       style="overflow:visible">
+      <path
+         id="path3228"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3230"
+       style="overflow:visible">
+      <path
+         id="path3232"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-9"
+       style="overflow:visible">
+      <path
+         id="path3922-1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-27"
+       style="overflow:visible">
+      <path
+         id="path3931-29-0"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3238"
+       style="overflow:visible">
+      <path
+         id="path3240"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3242"
+       style="overflow:visible">
+      <path
+         id="path3244"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3246"
+       style="overflow:visible">
+      <path
+         id="path3248"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL-47"
+       style="overflow:visible">
+      <path
+         id="path3928-6"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-56"
+       style="overflow:visible">
+      <path
+         id="path3931-93"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3518"
+       style="overflow:visible">
+      <path
+         id="path3520"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3522"
+       style="overflow:visible">
+      <path
+         id="path3524"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3526"
+       style="overflow:visible">
+      <path
+         id="path3528"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3530"
+       style="overflow:visible">
+      <path
+         id="path3532"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3534"
+       style="overflow:visible">
+      <path
+         id="path3536"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-7"
+       style="overflow:visible">
+      <path
+         id="path3922-4"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-52"
+       style="overflow:visible">
+      <path
+         id="path3931-29-5"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3542"
+       style="overflow:visible">
+      <path
+         id="path3544"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3546"
+       style="overflow:visible">
+      <path
+         id="path3548"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3550"
+       style="overflow:visible">
+      <path
+         id="path3552"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM-91"
+       style="overflow:visible">
+      <path
+         id="path3922-77"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(-0.4,-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-3-11"
+       style="overflow:visible">
+      <path
+         id="path3931-29-59"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="174.59056"
+     inkscape:cy="-48.315793"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="false"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1004"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5568"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-19.03539px"
+       originy="-409.82868px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.03539,-486.15948)">
+    <g
+       id="g11657"
+       transform="translate(0,-0.0786848)"
+       inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_atras.png"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198">
+      <g
+         id="g11962">
+        <text
+           sodipodi:linespacing="125%"
+           id="text5919"
+           y="620.09656"
+           x="214.40918"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="620.09656"
+             x="214.40918"
+             id="tspan5921"
+             sodipodi:role="line">x</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+           d="m 30,612.36219 195,0"
+           id="path3780-7-5-9-6-2-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <g
+           id="g5872"
+           style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+          <rect
+             y="527.36218"
+             x="50"
+             height="79.499992"
+             width="149.82141"
+             id="rect2989"
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <path
+             transform="matrix(0.79607848,0,0,0.79607848,-12.401964,139.44248)"
+             d="m 134.28571,575.2193 a 18.214285,18.214285 0 1 1 -36.428569,0 18.214285,18.214285 0 1 1 36.428569,0 z"
+             sodipodi:ry="18.214285"
+             sodipodi:rx="18.214285"
+             sodipodi:cy="575.2193"
+             sodipodi:cx="116.07143"
+             id="path3759"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.62807876;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             sodipodi:type="arc" />
+          <path
+             transform="translate(9.1428638,14.500026)"
+             d="m 180.35714,592.7193 a 4.6428571,4.6428571 0 1 1 -9.28572,0 4.6428571,4.6428571 0 1 1 9.28572,0 z"
+             sodipodi:ry="4.6428571"
+             sodipodi:rx="4.6428571"
+             sodipodi:cy="592.7193"
+             sodipodi:cx="175.71428"
+             id="path3761"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             sodipodi:type="arc" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 80,612.36218 35,0"
+           id="path3780-7-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 80,612.36218 0,-32.57699"
+           id="path3780-7-5-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 185,612.36218 0,-20"
+           id="path3780-7-5-9-6"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <g
+           transform="translate(16.66631,3.9682637)"
+           id="g7648">
+          <path
+             sodipodi:nodetypes="cc"
+             inkscape:connector-curvature="0"
+             id="path3780-7-5-9-6-2"
+             d="m 134.80469,541.14393 25,0"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)" />
+          <text
+             xml:space="preserve"
+             style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             x="143.11397"
+             y="536.12341"
+             id="text5901"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan8783"
+               x="143.11397"
+               y="536.12341">a</tspan></text>
+        </g>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5905"
+           y="578.43024"
+           x="63.798828"
+           style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan8746"
+             x="63.798828"
+             y="578.43024">F1</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5909"
+           y="604.65222"
+           x="103.83301"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="604.65222"
+             x="103.83301"
+             id="tspan5911"
+             sodipodi:role="line">Fx</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6977"
+           y="567.96277"
+           x="125.35645"
+           style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan9791"
+             x="125.35645"
+             y="567.96277">-mg</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5905-9"
+           y="586.0072"
+           x="179.01855"
+           style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan8748"
+             x="179.01855"
+             y="586.0072">F2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="124.43848"
+           y="552.22058"
+           id="text8752"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan8754"
+             x="124.43848"
+             y="552.22058">G</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+           d="m 30,612.36219 0,-100"
+           id="path3780-7-5-9-6-2-7-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           sodipodi:type="arc"
+           style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path8785"
+           sodipodi:cx="90.307999"
+           sodipodi:cy="37.313484"
+           sodipodi:rx="2.5"
+           sodipodi:ry="2.5"
+           d="m 92.807999,37.313484 a 2.5,2.5 0 1 1 -5,0 2.5,2.5 0 1 1 5,0 z"
+           transform="translate(29.692001,517.29871)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 120,557.36219 0,12.423"
+           id="path3780-7-5-9-6-24"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+           d="m 30,554.36219 90,0"
+           id="path3780-7-5-9-6-2-7-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+           d="m 120,632.36219 0,-80"
+           id="path3780-7-5-9-6-2-7-9-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+           d="m 80,632.36219 0,-20"
+           id="path3780-7-5-9-6-2-7-9-9-3"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+           d="m 185,632.36219 0,-30"
+           id="path3780-7-5-9-6-2-7-9-9-3-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+           d="m 123,632.36219 59,0"
+           id="path3780-7-5-9-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+           d="m 83,632.36219 34,0"
+           id="path3780-7-5-9-5-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="93.830566"
+           y="630.22058"
+           id="text11641"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan11643"
+             x="93.830566"
+             y="630.22058">d1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="144.44824"
+           y="630.09021"
+           id="text11645"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan11647"
+             x="144.44824"
+             y="630.09021">d2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="21.801758"
+           y="557.36218"
+           id="text11649"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan11651"
+             x="21.801758"
+             y="557.36218">h</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="-8.586297"
+           y="-5.132894"
+           id="text11653"
+           sodipodi:linespacing="125%"
+           transform="translate(27.192,522.54871)"><tspan
+             sodipodi:role="line"
+             id="tspan11655"
+             x="-8.586297"
+             y="-5.132894">z</tspan></text>
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text12396"
+       y="506.15753"
+       x="64.868958"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_atras.png"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198"><tspan
+         y="506.15753"
+         x="64.868958"
+         id="tspan12398"
+         sodipodi:role="line">Robot con ruedas atrás</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text12400"
+       y="493.95734"
+       x="379.00958"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198"><tspan
+         sodipodi:role="line"
+         id="tspan4008"
+         x="380.60138"
+         y="493.95734">Robot con ruedas en el medio </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4010"
+         x="379.00958"
+         y="506.45734">simétrico</tspan></text>
+    <g
+       id="g12504"
+       inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198">
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="470"
+         y="620.01788"
+         id="text5919-5"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan5921-5"
+           x="470"
+           y="620.01788">x</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-21"
+         d="m 285.59082,612.28351 195,0"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <rect
+         y="527.36218"
+         x="300"
+         height="80.000008"
+         width="150"
+         id="rect2989-9"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         transform="matrix(0.79607848,0,0,0.79607848,283.18886,139.3638)"
+         d="m 134.28571,575.2193 a 18.214285,18.214285 0 1 1 -36.428569,0 18.214285,18.214285 0 1 1 36.428569,0 z"
+         sodipodi:ry="18.214285"
+         sodipodi:rx="18.214285"
+         sodipodi:cy="575.2193"
+         sodipodi:cx="116.07143"
+         id="path3759-9"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.62807876;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-6"
+         d="m 375.59082,612.2835 35,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-2"
+         d="m 375.59082,612.2835 0,-32.57699"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <g
+         id="g7648-0"
+         transform="translate(272.25713,3.8895789)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 134.80469,541.14393 25,0"
+           id="path3780-7-5-9-6-2-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc"
+           inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+           inkscape:export-xdpi="198"
+           inkscape:export-ydpi="198" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5901-3"
+           y="536.12341"
+           x="143.11397"
+           style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"
+           inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+           inkscape:export-xdpi="198"
+           inkscape:export-ydpi="198"><tspan
+             y="536.12341"
+             x="143.11397"
+             id="tspan8783-2"
+             sodipodi:role="line">a</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="359.38965"
+         y="578.35156"
+         id="text5905-1"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="578.35156"
+           x="359.38965"
+           id="tspan8746-9"
+           sodipodi:role="line">F1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="399.42383"
+         y="604.57355"
+         id="text5909-7"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan5911-6"
+           x="399.42383"
+           y="604.57355">Fx</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="380.94727"
+         y="567.88409"
+         id="text6977-8"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="567.88409"
+           x="380.94727"
+           id="tspan9791-2"
+           sodipodi:role="line">-mg</tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3761-1"
+         sodipodi:cx="175.71428"
+         sodipodi:cy="592.7193"
+         sodipodi:rx="4.6428571"
+         sodipodi:ry="4.6428571"
+         d="m 180.35714,592.7193 a 4.6428571,4.6428571 0 1 1 -9.28572,0 4.6428571,4.6428571 0 1 1 9.28572,0 z"
+         transform="translate(264.73368,14.42134)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         d="m 440.59082,612.2835 0,-20"
+         id="path3780-7-5-9-6-1"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5905-9-0"
+         y="585.92853"
+         x="434.60938"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan4012"
+           x="434.60938"
+           y="585.92853">F2</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text8752-4"
+         y="552.14191"
+         x="380.0293"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="552.14191"
+           x="380.0293"
+           id="tspan8754-3"
+           sodipodi:role="line">G</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-2-3"
+         d="m 285.59082,612.28351 0,-100"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         transform="translate(285.28282,517.22003)"
+         d="m 92.807999,37.313484 a 2.5,2.5 0 1 1 -5,0 2.5,2.5 0 1 1 5,0 z"
+         sodipodi:ry="2.5"
+         sodipodi:rx="2.5"
+         sodipodi:cy="37.313484"
+         sodipodi:cx="90.307999"
+         id="path8785-6"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-24-9"
+         d="m 375.59082,557.28351 0,12.423"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-0"
+         d="m 285.59082,554.28351 90,0"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-4"
+         d="m 375.59082,632.28351 0,-80"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-3-85"
+         d="m 310.02746,632.36219 0,-20"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-3-8-1"
+         d="m 440.59082,632.28351 0,-30"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-5-2"
+         d="m 378.59082,632.28351 59,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text11641-7"
+         y="630.01154"
+         x="336.81161"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan4022"
+           x="336.81161"
+           y="630.01154">d2</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text11645-8"
+         y="630.01154"
+         x="401.96045"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan4024"
+           x="401.96045"
+           y="630.01154">d2</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text11649-9"
+         y="557.28351"
+         x="277.39258"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="557.28351"
+           x="277.39258"
+           id="tspan11651-2"
+           sodipodi:role="line">h</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text11653-3"
+         y="517.33716"
+         x="274.19653"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="517.33716"
+           x="274.19653"
+           id="tspan11655-1"
+           sodipodi:role="line">z</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-5-2-8"
+         d="m 313.442,632.36219 59,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <g
+         transform="translate(0.3836947,1.00001)"
+         id="g12378"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198">
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3761-1-1"
+           sodipodi:cx="175.71428"
+           sodipodi:cy="592.7193"
+           sodipodi:rx="4.6428571"
+           sodipodi:ry="4.6428571"
+           d="m 180.35714,592.7193 a 4.6428571,4.6428571 0 1 1 -9.28572,0 4.6428571,4.6428571 0 1 1 9.28572,0 z"
+           transform="translate(133.73368,13.421333)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 309.59082,611.28349 0,-20"
+           id="path3780-7-5-9-6-1-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5905-9-0-6"
+           y="584.92853"
+           x="303.60938"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan4014"
+             x="303.60938"
+             y="584.92853">F3</tspan></text>
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text12400-9"
+       y="493.95709"
+       x="625.01654"
+       style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198"><tspan
+         sodipodi:role="line"
+         id="tspan4004"
+         x="626.60834"
+         y="493.95709">Robot con ruedas en el medio </tspan><tspan
+         sodipodi:role="line"
+         id="tspan4006"
+         x="625.01654"
+         y="506.45709">no simetrico</tspan></text>
+    <g
+       id="g3949"
+       inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+       inkscape:export-xdpi="198"
+       inkscape:export-ydpi="198">
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="716.00696"
+         y="620.01788"
+         id="text5919-5-7"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan5921-5-4"
+           x="716.00696"
+           y="620.01788">x</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-21-4"
+         d="m 531.59775,612.2835 195,0"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <rect
+         y="527.36218"
+         x="546.00696"
+         height="80.000008"
+         width="150"
+         id="rect2989-9-3"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         transform="matrix(0.79607848,0,0,0.79607848,529.19579,139.36379)"
+         d="m 134.28571,575.2193 a 18.214285,18.214285 0 1 1 -36.428569,0 18.214285,18.214285 0 1 1 36.428569,0 z"
+         sodipodi:ry="18.214285"
+         sodipodi:rx="18.214285"
+         sodipodi:cy="575.2193"
+         sodipodi:cx="116.07143"
+         id="path3759-9-0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.62807876;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-6-7"
+         d="m 621.59775,612.28349 35,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-2-8"
+         d="m 621.59775,612.28349 0,-32.57699"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <g
+         id="g7648-0-6"
+         transform="translate(518.26406,3.8895667)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 134.80469,541.14393 25,0"
+           id="path3780-7-5-9-6-2-5-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5901-3-8"
+           y="536.12341"
+           x="143.11397"
+           style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="536.12341"
+             x="143.11397"
+             id="tspan8783-2-4"
+             sodipodi:role="line">a</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="624.83411"
+         y="578.35156"
+         id="text5905-1-3"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="578.35156"
+           x="624.83411"
+           id="tspan8746-9-1"
+           sodipodi:role="line">F1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="645.43079"
+         y="604.57355"
+         id="text5909-7-4"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan5911-6-9"
+           x="645.43079"
+           y="604.57355">Fx</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="600.39172"
+         y="567.88409"
+         id="text6977-8-2"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="567.88409"
+           x="600.39172"
+           id="tspan9791-2-0"
+           sodipodi:role="line">-mg</tspan></text>
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="path3761-1-6"
+         sodipodi:cx="175.71428"
+         sodipodi:cy="592.7193"
+         sodipodi:rx="4.6428571"
+         sodipodi:ry="4.6428571"
+         d="m 180.35714,592.7193 a 4.6428571,4.6428571 0 1 1 -9.28572,0 4.6428571,4.6428571 0 1 1 9.28572,0 z"
+         transform="translate(510.74061,14.421328)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         d="m 686.59775,612.28349 0,-20"
+         id="path3780-7-5-9-6-1-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5905-9-0-9"
+         y="585.92853"
+         x="680.61633"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           sodipodi:role="line"
+           id="tspan4016"
+           x="680.61633"
+           y="585.92853">F2</tspan><tspan
+           sodipodi:role="line"
+           id="tspan4018"
+           x="680.61633"
+           y="598.42853"></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text8752-4-6"
+         y="552.14191"
+         x="599.47375"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="552.14191"
+           x="599.47375"
+           id="tspan8754-3-6"
+           sodipodi:role="line">G</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-2-3-4"
+         d="m 531.59775,612.2835 0,-100"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutL)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         transform="translate(504.72725,517.22002)"
+         d="m 92.807999,37.313484 a 2.5,2.5 0 1 1 -5,0 2.5,2.5 0 1 1 5,0 z"
+         sodipodi:ry="2.5"
+         sodipodi:rx="2.5"
+         sodipodi:cy="37.313484"
+         sodipodi:cx="90.307999"
+         id="path8785-6-9"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-24-9-5"
+         d="m 595.03525,557.2835 0,12.423"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-0-0"
+         d="M 531.59775,554.2835 595,554.36219"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-4-4"
+         d="m 621.59775,632.2835 0,-35.92131"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-3-85-8"
+         d="m 566.03439,632.36218 0,-20"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-3-8-1-7"
+         d="m 686.59775,640.36218 0,-38.07868"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-5-2-1"
+         d="m 598,640.2835 85.59775,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text11641-7-7"
+         y="630.01154"
+         x="574.36963"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="630.01154"
+           x="574.36963"
+           id="tspan3859"
+           sodipodi:role="line">d2</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text11645-8-7"
+         y="638.01154"
+         x="646.56848"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="638.01154"
+           x="646.56848"
+           id="tspan3865"
+           sodipodi:role="line">d2'</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text11649-9-2"
+         y="557.28351"
+         x="523.39954"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="557.28351"
+           x="523.39954"
+           id="tspan11651-2-6"
+           sodipodi:role="line">h</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text11653-3-1"
+         y="517.33716"
+         x="520.20349"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="517.33716"
+           x="520.20349"
+           id="tspan11655-1-0"
+           sodipodi:role="line">z</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-5-2-8-6"
+         d="m 569,632.36218 23,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <g
+         transform="translate(256.39062,0.99999775)"
+         id="g12378-1"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198">
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3761-1-1-5"
+           sodipodi:cx="175.71428"
+           sodipodi:cy="592.7193"
+           sodipodi:rx="4.6428571"
+           sodipodi:ry="4.6428571"
+           d="m 180.35714,592.7193 a 4.6428571,4.6428571 0 1 1 -9.28572,0 4.6428571,4.6428571 0 1 1 9.28572,0 z"
+           transform="translate(133.73368,13.421333)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#TriangleOutM)"
+           d="m 309.59082,611.28349 0,-20"
+           id="path3780-7-5-9-6-1-2-9"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5905-9-0-6-4"
+           y="584.92853"
+           x="303.60938"
+           style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan4020"
+             x="303.60938"
+             y="584.92853">F3</tspan></text>
+      </g>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-6-2-7-9-9-4-4-0"
+         d="m 595,640.36218 0,-85.99999"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;marker-end:none"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3780-7-5-9-5-2-8-6-7"
+         d="m 598,632.36218 21,0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM-3)"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text11641-7-7-7"
+         y="630.01154"
+         x="602.33057"
+         style="font-size:10px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"
+         inkscape:export-filename="/media/datos/Datos/Proyectos/TFC_eurobot/book-latex/figures/dinamica_a_max_ruedas_medio.png"
+         inkscape:export-xdpi="198"
+         inkscape:export-ydpi="198"><tspan
+           y="630.01154"
+           x="602.33057"
+           id="tspan3861"
+           sodipodi:role="line">d1</tspan></text>
+    </g>
+  </g>
+</svg>
